@@ -1,0 +1,13 @@
+{
+  "name": "Advertisements blocker",
+  "version": "2.0",
+  "description": "Chrome google ads. Blocking Extension",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js", "source.js"]
+  },
+  "manifest_version": 2,
+  "browser_action": {
+	"default_popup": "popup.html"
+  }
+}
